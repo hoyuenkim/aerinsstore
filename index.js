@@ -20,7 +20,6 @@ app.get('/terms', async (req, res) => {
   return res.render('terms.html');
 });
 
-const axios = require('axios');
 require('dotenv').config(); // 환경 변수 파일(.env) 사용
 
 const schedule = require('node-schedule');
