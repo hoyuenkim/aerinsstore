@@ -1,0 +1,27 @@
+{
+  "name": "aerins",
+  "version": "1.0.0",
+  "description": "toy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyuenkim/aerinsstore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoyuenkim/aerinsstore/issues"
+  },
+  "homepage": "https://github.com/hoyuenkim/aerinsstore#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-schedule": "^2.1.1",
+    "nunjucks": "^3.2.4"
+  }
+}
